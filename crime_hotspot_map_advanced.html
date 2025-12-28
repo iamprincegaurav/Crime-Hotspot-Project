@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0036738359e04a9d574d4a30f4dbc601 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0036738359e04a9d574d4a30f4dbc601" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0036738359e04a9d574d4a30f4dbc601 = L.map(
+                "map_0036738359e04a9d574d4a30f4dbc601",
+                {
+                    center: [25.5941, 85.1376],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c256b85d34e0f336c3be408262e14b47 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c256b85d34e0f336c3be408262e14b47.addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+            var circle_marker_dc3875291243f7b5e0acc897603fb1df = L.circleMarker(
+                [25.5941, 85.1376],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_752ef17e4e35b5f24009110e94bed39e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8d397d8b3885aaf899593dba2ff9a73 = $(`<div id="html_c8d397d8b3885aaf899593dba2ff9a73" style="width: 100.0%; height: 100.0%;">Theft at Civil Lines</div>`)[0];
+                popup_752ef17e4e35b5f24009110e94bed39e.setContent(html_c8d397d8b3885aaf899593dba2ff9a73);
+            
+        
+
+        circle_marker_dc3875291243f7b5e0acc897603fb1df.bindPopup(popup_752ef17e4e35b5f24009110e94bed39e)
+        ;
+
+        
+    
+    
+            var circle_marker_d44b5d7a4487aefc179faec8a922b894 = L.circleMarker(
+                [25.6022, 85.141],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_c9b2739c4a214b4b30c5164c7ade8425 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7fa0c2255fd26cd9df87bea8e43ffdc = $(`<div id="html_b7fa0c2255fd26cd9df87bea8e43ffdc" style="width: 100.0%; height: 100.0%;">Assault at Kankarbagh</div>`)[0];
+                popup_c9b2739c4a214b4b30c5164c7ade8425.setContent(html_b7fa0c2255fd26cd9df87bea8e43ffdc);
+            
+        
+
+        circle_marker_d44b5d7a4487aefc179faec8a922b894.bindPopup(popup_c9b2739c4a214b4b30c5164c7ade8425)
+        ;
+
+        
+    
+    
+            var circle_marker_0d19296fd79aa843897f37e9b7ee09b8 = L.circleMarker(
+                [25.612, 85.1015],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_b3158b14399411d39ca75035b7044502 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_90acd42a2320ac793bbeb41c8fe08105 = $(`<div id="html_90acd42a2320ac793bbeb41c8fe08105" style="width: 100.0%; height: 100.0%;">Robbery at Patliputra</div>`)[0];
+                popup_b3158b14399411d39ca75035b7044502.setContent(html_90acd42a2320ac793bbeb41c8fe08105);
+            
+        
+
+        circle_marker_0d19296fd79aa843897f37e9b7ee09b8.bindPopup(popup_b3158b14399411d39ca75035b7044502)
+        ;
+
+        
+    
+    
+            var circle_marker_b9a43638c532886312ae61ca8a740845 = L.circleMarker(
+                [25.6173, 85.15],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_eac8b3fc90cff08392b708645f636e57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f94ec2abc74afeb665c84dae0b8bc0cb = $(`<div id="html_f94ec2abc74afeb665c84dae0b8bc0cb" style="width: 100.0%; height: 100.0%;">Theft at Rajendra Nagar</div>`)[0];
+                popup_eac8b3fc90cff08392b708645f636e57.setContent(html_f94ec2abc74afeb665c84dae0b8bc0cb);
+            
+        
+
+        circle_marker_b9a43638c532886312ae61ca8a740845.bindPopup(popup_eac8b3fc90cff08392b708645f636e57)
+        ;
+
+        
+    
+    
+            var circle_marker_c88a9a4fcc66fa6ad09578a8530a7de4 = L.circleMarker(
+                [25.6101, 85.1385],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_afa78b4490c41ff3aeda8a4e17778fc9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_578f7b2c1f08332a73f0a040374ab5f3 = $(`<div id="html_578f7b2c1f08332a73f0a040374ab5f3" style="width: 100.0%; height: 100.0%;">Vehicle Theft at Gandhi Maidan</div>`)[0];
+                popup_afa78b4490c41ff3aeda8a4e17778fc9.setContent(html_578f7b2c1f08332a73f0a040374ab5f3);
+            
+        
+
+        circle_marker_c88a9a4fcc66fa6ad09578a8530a7de4.bindPopup(popup_afa78b4490c41ff3aeda8a4e17778fc9)
+        ;
+
+        
+    
+    
+            var circle_marker_222db77d46d4f9cad9ffb45528dc726b = L.circleMarker(
+                [25.602, 85.1642],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_bbb228b4c4427fd581ddaa5c667459bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d197453ee75e8573c486d1c20588643 = $(`<div id="html_9d197453ee75e8573c486d1c20588643" style="width: 100.0%; height: 100.0%;">Burglary at Kadam Kuan</div>`)[0];
+                popup_bbb228b4c4427fd581ddaa5c667459bc.setContent(html_9d197453ee75e8573c486d1c20588643);
+            
+        
+
+        circle_marker_222db77d46d4f9cad9ffb45528dc726b.bindPopup(popup_bbb228b4c4427fd581ddaa5c667459bc)
+        ;
+
+        
+    
+    
+            var circle_marker_11d4cd3a35e6cd4851b6848b858d9f72 = L.circleMarker(
+                [25.5875, 85.0456],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_6893d521b6cd5958abf3f976508edbb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d59bb9caa6d529c1426b353a62c26df = $(`<div id="html_7d59bb9caa6d529c1426b353a62c26df" style="width: 100.0%; height: 100.0%;">Murder at Phulwari Sharif</div>`)[0];
+                popup_6893d521b6cd5958abf3f976508edbb9.setContent(html_7d59bb9caa6d529c1426b353a62c26df);
+            
+        
+
+        circle_marker_11d4cd3a35e6cd4851b6848b858d9f72.bindPopup(popup_6893d521b6cd5958abf3f976508edbb9)
+        ;
+
+        
+    
+    
+            var circle_marker_4b48f7c0fd03cf447e3461500d60a868 = L.circleMarker(
+                [25.6395, 85.047],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_56f68611445cfefa7015e4b333eb5369 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c53e80d85a8a348fbfad8fe4e2c345b2 = $(`<div id="html_c53e80d85a8a348fbfad8fe4e2c345b2" style="width: 100.0%; height: 100.0%;">Robbery at Danapur</div>`)[0];
+                popup_56f68611445cfefa7015e4b333eb5369.setContent(html_c53e80d85a8a348fbfad8fe4e2c345b2);
+            
+        
+
+        circle_marker_4b48f7c0fd03cf447e3461500d60a868.bindPopup(popup_56f68611445cfefa7015e4b333eb5369)
+        ;
+
+        
+    
+    
+            var circle_marker_cf4365bfc3b1dd167eadc39a6dd51d4e = L.circleMarker(
+                [25.616, 85.1438],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_8a1c89b780377559eeb48bd425084472 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48ed36c81e5c98f7477917ae4825f92e = $(`<div id="html_48ed36c81e5c98f7477917ae4825f92e" style="width: 100.0%; height: 100.0%;">Theft at Fraser Road</div>`)[0];
+                popup_8a1c89b780377559eeb48bd425084472.setContent(html_48ed36c81e5c98f7477917ae4825f92e);
+            
+        
+
+        circle_marker_cf4365bfc3b1dd167eadc39a6dd51d4e.bindPopup(popup_8a1c89b780377559eeb48bd425084472)
+        ;
+
+        
+    
+    
+            var circle_marker_bcd0717e12ca7b3500c0b5d30b4a3ae6 = L.circleMarker(
+                [25.6246, 85.1114],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_e21923259fbca8c0d4c1a3e16426ccfd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d288c9f722257d2e01ff8dd9e3884ee = $(`<div id="html_0d288c9f722257d2e01ff8dd9e3884ee" style="width: 100.0%; height: 100.0%;">Chain Snatching at Boring Road</div>`)[0];
+                popup_e21923259fbca8c0d4c1a3e16426ccfd.setContent(html_0d288c9f722257d2e01ff8dd9e3884ee);
+            
+        
+
+        circle_marker_bcd0717e12ca7b3500c0b5d30b4a3ae6.bindPopup(popup_e21923259fbca8c0d4c1a3e16426ccfd)
+        ;
+
+        
+    
+    
+            var circle_marker_bdcdb75fc6aa0156968f5272838696e5 = L.circleMarker(
+                [25.5888, 85.1549],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_9b2fff370a681acd0f59b3ef9e96a0cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aaceed874d000791fbf5a3e06855e7a8 = $(`<div id="html_aaceed874d000791fbf5a3e06855e7a8" style="width: 100.0%; height: 100.0%;">Riot at Mithapur</div>`)[0];
+                popup_9b2fff370a681acd0f59b3ef9e96a0cc.setContent(html_aaceed874d000791fbf5a3e06855e7a8);
+            
+        
+
+        circle_marker_bdcdb75fc6aa0156968f5272838696e5.bindPopup(popup_9b2fff370a681acd0f59b3ef9e96a0cc)
+        ;
+
+        
+    
+    
+            var circle_marker_90fd302b330d13f86d97fdc46457b052 = L.circleMarker(
+                [25.6052, 85.1794],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_756a9fba27cf9ca532032b9196ed7ab5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb1da6f99479070af8f1c8ab47f8828e = $(`<div id="html_bb1da6f99479070af8f1c8ab47f8828e" style="width: 100.0%; height: 100.0%;">Burglary at Agam Kuan</div>`)[0];
+                popup_756a9fba27cf9ca532032b9196ed7ab5.setContent(html_bb1da6f99479070af8f1c8ab47f8828e);
+            
+        
+
+        circle_marker_90fd302b330d13f86d97fdc46457b052.bindPopup(popup_756a9fba27cf9ca532032b9196ed7ab5)
+        ;
+
+        
+    
+    
+            var circle_marker_f5146156117d58560c987f83d6178ebd = L.circleMarker(
+                [25.5947, 85.1355],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_e93616f8518f9ab2c3db19998891979d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5e9becaf99d3c4f1f81d549af6c2528 = $(`<div id="html_d5e9becaf99d3c4f1f81d549af6c2528" style="width: 100.0%; height: 100.0%;">Theft at Patna Junction</div>`)[0];
+                popup_e93616f8518f9ab2c3db19998891979d.setContent(html_d5e9becaf99d3c4f1f81d549af6c2528);
+            
+        
+
+        circle_marker_f5146156117d58560c987f83d6178ebd.bindPopup(popup_e93616f8518f9ab2c3db19998891979d)
+        ;
+
+        
+    
+    
+            var circle_marker_ee01370db783cc939dfabbb5133c43b3 = L.circleMarker(
+                [25.6022, 85.141],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_de5d7220b30758bbc631c6f0a519329d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62fd8e4fe4d3a7e269bff931c173d566 = $(`<div id="html_62fd8e4fe4d3a7e269bff931c173d566" style="width: 100.0%; height: 100.0%;">Assault at Kankarbagh</div>`)[0];
+                popup_de5d7220b30758bbc631c6f0a519329d.setContent(html_62fd8e4fe4d3a7e269bff931c173d566);
+            
+        
+
+        circle_marker_ee01370db783cc939dfabbb5133c43b3.bindPopup(popup_de5d7220b30758bbc631c6f0a519329d)
+        ;
+
+        
+    
+    
+            var circle_marker_5ccf199a5e8b495e6d0da4ebc6dbb327 = L.circleMarker(
+                [25.602, 85.1642],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_f0e628d7bceae12908d27fbbeb682672 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e3c091c8d74c321d074732aaa06ab7a = $(`<div id="html_9e3c091c8d74c321d074732aaa06ab7a" style="width: 100.0%; height: 100.0%;">Murder at Kadam Kuan</div>`)[0];
+                popup_f0e628d7bceae12908d27fbbeb682672.setContent(html_9e3c091c8d74c321d074732aaa06ab7a);
+            
+        
+
+        circle_marker_5ccf199a5e8b495e6d0da4ebc6dbb327.bindPopup(popup_f0e628d7bceae12908d27fbbeb682672)
+        ;
+
+        
+    
+    
+            var circle_marker_4bf6999f708476e93fe74166873ece76 = L.circleMarker(
+                [25.5899, 85.1587],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_96ff6144552380ef53293ebb0b4c3eb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5f825bc940cabd1bd800248c19f2e8c = $(`<div id="html_b5f825bc940cabd1bd800248c19f2e8c" style="width: 100.0%; height: 100.0%;">Robbery at Bikhana Pahadi</div>`)[0];
+                popup_96ff6144552380ef53293ebb0b4c3eb4.setContent(html_b5f825bc940cabd1bd800248c19f2e8c);
+            
+        
+
+        circle_marker_4bf6999f708476e93fe74166873ece76.bindPopup(popup_96ff6144552380ef53293ebb0b4c3eb4)
+        ;
+
+        
+    
+    
+            var circle_marker_ba2a3e74d7294e768401f75bae6c08bb = L.circleMarker(
+                [25.612, 85.1015],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_5fcd1913ab40649d489c1eadc2c67bd0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d65054b5724af8ab4a8c3dfbcf1ff1d1 = $(`<div id="html_d65054b5724af8ab4a8c3dfbcf1ff1d1" style="width: 100.0%; height: 100.0%;">Vehicle Theft at Patliputra</div>`)[0];
+                popup_5fcd1913ab40649d489c1eadc2c67bd0.setContent(html_d65054b5724af8ab4a8c3dfbcf1ff1d1);
+            
+        
+
+        circle_marker_ba2a3e74d7294e768401f75bae6c08bb.bindPopup(popup_5fcd1913ab40649d489c1eadc2c67bd0)
+        ;
+
+        
+    
+    
+            var circle_marker_97637af75bca21c1bd7148e59622b211 = L.circleMarker(
+                [25.6173, 85.15],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_d7f85e51b219ed34a80af7bf8175e306 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_448acdcf95ca816342326c7442bf0a49 = $(`<div id="html_448acdcf95ca816342326c7442bf0a49" style="width: 100.0%; height: 100.0%;">Burglary at Rajendra Nagar</div>`)[0];
+                popup_d7f85e51b219ed34a80af7bf8175e306.setContent(html_448acdcf95ca816342326c7442bf0a49);
+            
+        
+
+        circle_marker_97637af75bca21c1bd7148e59622b211.bindPopup(popup_d7f85e51b219ed34a80af7bf8175e306)
+        ;
+
+        
+    
+    
+            var circle_marker_eecc88fb59aecbf6d78ebc5cc58f1150 = L.circleMarker(
+                [25.6395, 85.047],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_30b7aaca3e54ee955421a40135bd4634 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b44eaef32226ca9f7bebd4b5af71c057 = $(`<div id="html_b44eaef32226ca9f7bebd4b5af71c057" style="width: 100.0%; height: 100.0%;">Theft at Danapur</div>`)[0];
+                popup_30b7aaca3e54ee955421a40135bd4634.setContent(html_b44eaef32226ca9f7bebd4b5af71c057);
+            
+        
+
+        circle_marker_eecc88fb59aecbf6d78ebc5cc58f1150.bindPopup(popup_30b7aaca3e54ee955421a40135bd4634)
+        ;
+
+        
+    
+    
+            var circle_marker_94dee69c24d0063546d540b6463efaac = L.circleMarker(
+                [25.602, 85.1642],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_5d9e5da72768b5ef3e817e6268646218 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2d6c539da7274fc93075bcc17115dfb = $(`<div id="html_c2d6c539da7274fc93075bcc17115dfb" style="width: 100.0%; height: 100.0%;">Assault at Kadam Kuan</div>`)[0];
+                popup_5d9e5da72768b5ef3e817e6268646218.setContent(html_c2d6c539da7274fc93075bcc17115dfb);
+            
+        
+
+        circle_marker_94dee69c24d0063546d540b6463efaac.bindPopup(popup_5d9e5da72768b5ef3e817e6268646218)
+        ;
+
+        
+    
+    
+            var circle_marker_1a5264795f06e0a26dd8b6df2e4ccb3b = L.circleMarker(
+                [25.6246, 85.1114],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_cb24fe1327ec53f3822ec3a9aed52fb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_943707172f47db5edf2297fb16f86cf5 = $(`<div id="html_943707172f47db5edf2297fb16f86cf5" style="width: 100.0%; height: 100.0%;">Chain Snatching at Boring Road</div>`)[0];
+                popup_cb24fe1327ec53f3822ec3a9aed52fb7.setContent(html_943707172f47db5edf2297fb16f86cf5);
+            
+        
+
+        circle_marker_1a5264795f06e0a26dd8b6df2e4ccb3b.bindPopup(popup_cb24fe1327ec53f3822ec3a9aed52fb7)
+        ;
+
+        
+    
+    
+            var circle_marker_abf3685ec5094243d084ec1a6dc6ae3c = L.circleMarker(
+                [25.5888, 85.1549],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_87439f751198fd1939e57eb823dcfd6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f448145138dd60cf3a920c33ec7b6d3 = $(`<div id="html_0f448145138dd60cf3a920c33ec7b6d3" style="width: 100.0%; height: 100.0%;">Riot at Mithapur</div>`)[0];
+                popup_87439f751198fd1939e57eb823dcfd6e.setContent(html_0f448145138dd60cf3a920c33ec7b6d3);
+            
+        
+
+        circle_marker_abf3685ec5094243d084ec1a6dc6ae3c.bindPopup(popup_87439f751198fd1939e57eb823dcfd6e)
+        ;
+
+        
+    
+    
+            var circle_marker_14d4947df86376a09263630b8eb78005 = L.circleMarker(
+                [25.5947, 85.1355],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_b0ebafd007e1ebc8d7ea242eee2b82b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8d6d0815c56d8c408ff0418daeeab79 = $(`<div id="html_e8d6d0815c56d8c408ff0418daeeab79" style="width: 100.0%; height: 100.0%;">Theft at Patna Junction</div>`)[0];
+                popup_b0ebafd007e1ebc8d7ea242eee2b82b0.setContent(html_e8d6d0815c56d8c408ff0418daeeab79);
+            
+        
+
+        circle_marker_14d4947df86376a09263630b8eb78005.bindPopup(popup_b0ebafd007e1ebc8d7ea242eee2b82b0)
+        ;
+
+        
+    
+    
+            var circle_marker_9498a6ddc3875a5de920ff6b44b37232 = L.circleMarker(
+                [25.6101, 85.1385],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_b79a4be0b4ad2ef5b67293ef8fab575b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f4552f665d2143125c4593db78a288f = $(`<div id="html_0f4552f665d2143125c4593db78a288f" style="width: 100.0%; height: 100.0%;">Robbery at Gandhi Maidan</div>`)[0];
+                popup_b79a4be0b4ad2ef5b67293ef8fab575b.setContent(html_0f4552f665d2143125c4593db78a288f);
+            
+        
+
+        circle_marker_9498a6ddc3875a5de920ff6b44b37232.bindPopup(popup_b79a4be0b4ad2ef5b67293ef8fab575b)
+        ;
+
+        
+    
+    
+            var circle_marker_a6620d23026b96e37b465b19826c8fb1 = L.circleMarker(
+                [25.616, 85.1438],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_499c02c3b1b2cf02d4abb43efb15d45f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6971c4372f841c1bdb3e51a50180499 = $(`<div id="html_a6971c4372f841c1bdb3e51a50180499" style="width: 100.0%; height: 100.0%;">Vehicle Theft at Fraser Road</div>`)[0];
+                popup_499c02c3b1b2cf02d4abb43efb15d45f.setContent(html_a6971c4372f841c1bdb3e51a50180499);
+            
+        
+
+        circle_marker_a6620d23026b96e37b465b19826c8fb1.bindPopup(popup_499c02c3b1b2cf02d4abb43efb15d45f)
+        ;
+
+        
+    
+    
+            var circle_marker_c3892fa1f6a7d130a5e54491c11846d8 = L.circleMarker(
+                [25.6052, 85.1794],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_aa142ec21b863144b1c6aebf9b777426 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e559932509a7708ad8eac66e1965511c = $(`<div id="html_e559932509a7708ad8eac66e1965511c" style="width: 100.0%; height: 100.0%;">Burglary at Agam Kuan</div>`)[0];
+                popup_aa142ec21b863144b1c6aebf9b777426.setContent(html_e559932509a7708ad8eac66e1965511c);
+            
+        
+
+        circle_marker_c3892fa1f6a7d130a5e54491c11846d8.bindPopup(popup_aa142ec21b863144b1c6aebf9b777426)
+        ;
+
+        
+    
+    
+            var circle_marker_d9e50a83b1dd2f0f10af34125d58d8d1 = L.circleMarker(
+                [25.5941, 85.1376],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_b895cac9ab524f54314044c86c113e7b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c15d281847954e239d19d69fcf382ba = $(`<div id="html_5c15d281847954e239d19d69fcf382ba" style="width: 100.0%; height: 100.0%;">Assault at Civil Lines</div>`)[0];
+                popup_b895cac9ab524f54314044c86c113e7b.setContent(html_5c15d281847954e239d19d69fcf382ba);
+            
+        
+
+        circle_marker_d9e50a83b1dd2f0f10af34125d58d8d1.bindPopup(popup_b895cac9ab524f54314044c86c113e7b)
+        ;
+
+        
+    
+    
+            var circle_marker_cb0ba964a6c874a95cb86dd6cbc54ab4 = L.circleMarker(
+                [25.5875, 85.0456],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_2283554d86dafe5253dd18ee8f379906 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9edc5d31350ec4bd9c775e0e42f66966 = $(`<div id="html_9edc5d31350ec4bd9c775e0e42f66966" style="width: 100.0%; height: 100.0%;">Murder at Phulwari Sharif</div>`)[0];
+                popup_2283554d86dafe5253dd18ee8f379906.setContent(html_9edc5d31350ec4bd9c775e0e42f66966);
+            
+        
+
+        circle_marker_cb0ba964a6c874a95cb86dd6cbc54ab4.bindPopup(popup_2283554d86dafe5253dd18ee8f379906)
+        ;
+
+        
+    
+    
+            var circle_marker_14e4dd9c9480d2a2ac4c20821d62dc20 = L.circleMarker(
+                [25.6246, 85.1114],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_dcf3a55a0da9132fdcb4e3fcbd539b10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a2541263f7e2fc27e5ed2d8ea36ffcf = $(`<div id="html_1a2541263f7e2fc27e5ed2d8ea36ffcf" style="width: 100.0%; height: 100.0%;">Robbery at Boring Road</div>`)[0];
+                popup_dcf3a55a0da9132fdcb4e3fcbd539b10.setContent(html_1a2541263f7e2fc27e5ed2d8ea36ffcf);
+            
+        
+
+        circle_marker_14e4dd9c9480d2a2ac4c20821d62dc20.bindPopup(popup_dcf3a55a0da9132fdcb4e3fcbd539b10)
+        ;
+
+        
+    
+    
+            var circle_marker_a5027032a342dcd49ae9a67806c76290 = L.circleMarker(
+                [25.612, 85.1015],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_0d57c82ccb1e16701790490000cb18c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a681556a9a7e4286a8c4a5e1b7fb7ae = $(`<div id="html_1a681556a9a7e4286a8c4a5e1b7fb7ae" style="width: 100.0%; height: 100.0%;">Theft at Patliputra</div>`)[0];
+                popup_0d57c82ccb1e16701790490000cb18c4.setContent(html_1a681556a9a7e4286a8c4a5e1b7fb7ae);
+            
+        
+
+        circle_marker_a5027032a342dcd49ae9a67806c76290.bindPopup(popup_0d57c82ccb1e16701790490000cb18c4)
+        ;
+
+        
+    
+    
+            var circle_marker_2a02df8ca7de88168eff1e2d13a75843 = L.circleMarker(
+                [25.6022, 85.141],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_3bf34eff065d3d8a9ce453fe8ee2b745 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01f0d505f65a1cb6cfe815419ab624f4 = $(`<div id="html_01f0d505f65a1cb6cfe815419ab624f4" style="width: 100.0%; height: 100.0%;">Burglary at Kankarbagh</div>`)[0];
+                popup_3bf34eff065d3d8a9ce453fe8ee2b745.setContent(html_01f0d505f65a1cb6cfe815419ab624f4);
+            
+        
+
+        circle_marker_2a02df8ca7de88168eff1e2d13a75843.bindPopup(popup_3bf34eff065d3d8a9ce453fe8ee2b745)
+        ;
+
+        
+    
+    
+            var circle_marker_12daa18c8eab7981f9fa6536af1802ea = L.circleMarker(
+                [25.5888, 85.1549],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_18fe276c10508e29a51a0f86446f218e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c789fcb0848de22e2098fe35ad99e166 = $(`<div id="html_c789fcb0848de22e2098fe35ad99e166" style="width: 100.0%; height: 100.0%;">Riot at Mithapur</div>`)[0];
+                popup_18fe276c10508e29a51a0f86446f218e.setContent(html_c789fcb0848de22e2098fe35ad99e166);
+            
+        
+
+        circle_marker_12daa18c8eab7981f9fa6536af1802ea.bindPopup(popup_18fe276c10508e29a51a0f86446f218e)
+        ;
+
+        
+    
+    
+            var circle_marker_4cae9f6514cb543542b30fee8280d43a = L.circleMarker(
+                [25.6395, 85.047],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_6db6feb724c9234ada3017dc2fdd4fb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_747c22a9e96097c5be25d1fb502a033f = $(`<div id="html_747c22a9e96097c5be25d1fb502a033f" style="width: 100.0%; height: 100.0%;">Vehicle Theft at Danapur</div>`)[0];
+                popup_6db6feb724c9234ada3017dc2fdd4fb7.setContent(html_747c22a9e96097c5be25d1fb502a033f);
+            
+        
+
+        circle_marker_4cae9f6514cb543542b30fee8280d43a.bindPopup(popup_6db6feb724c9234ada3017dc2fdd4fb7)
+        ;
+
+        
+    
+    
+            var circle_marker_33b5a92e1a0983b3a57b8e6eebbf8ec3 = L.circleMarker(
+                [25.6173, 85.15],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_48aefc5ed93b538c26e3af8416d9ffb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65a2ed5b5f6c2751f108e2f90e646013 = $(`<div id="html_65a2ed5b5f6c2751f108e2f90e646013" style="width: 100.0%; height: 100.0%;">Chain Snatching at Rajendra Nagar</div>`)[0];
+                popup_48aefc5ed93b538c26e3af8416d9ffb2.setContent(html_65a2ed5b5f6c2751f108e2f90e646013);
+            
+        
+
+        circle_marker_33b5a92e1a0983b3a57b8e6eebbf8ec3.bindPopup(popup_48aefc5ed93b538c26e3af8416d9ffb2)
+        ;
+
+        
+    
+    
+            var circle_marker_beb83cca61d7827d7206b18c08023810 = L.circleMarker(
+                [25.6101, 85.1385],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_6e45ef37d0b408ceccd82b0240bcf4a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b5d025c6363f7813984a97f3a08be94 = $(`<div id="html_2b5d025c6363f7813984a97f3a08be94" style="width: 100.0%; height: 100.0%;">Assault at Gandhi Maidan</div>`)[0];
+                popup_6e45ef37d0b408ceccd82b0240bcf4a5.setContent(html_2b5d025c6363f7813984a97f3a08be94);
+            
+        
+
+        circle_marker_beb83cca61d7827d7206b18c08023810.bindPopup(popup_6e45ef37d0b408ceccd82b0240bcf4a5)
+        ;
+
+        
+    
+    
+            var circle_marker_113c7289e0f89e4befbfae83bc6b4cbf = L.circleMarker(
+                [25.616, 85.1438],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_2708c73be60013d607d5b06f26ba54e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73aecdd047917f7c87f1640992daa431 = $(`<div id="html_73aecdd047917f7c87f1640992daa431" style="width: 100.0%; height: 100.0%;">Theft at Fraser Road</div>`)[0];
+                popup_2708c73be60013d607d5b06f26ba54e8.setContent(html_73aecdd047917f7c87f1640992daa431);
+            
+        
+
+        circle_marker_113c7289e0f89e4befbfae83bc6b4cbf.bindPopup(popup_2708c73be60013d607d5b06f26ba54e8)
+        ;
+
+        
+    
+    
+            var circle_marker_c80157e510671d46122b7020052f4582 = L.circleMarker(
+                [25.602, 85.1642],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_19243512301dc7aaebb28387b5e03e2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4740f8fed94b4e6cc506fe3dd8fd2015 = $(`<div id="html_4740f8fed94b4e6cc506fe3dd8fd2015" style="width: 100.0%; height: 100.0%;">Murder at Kadam Kuan</div>`)[0];
+                popup_19243512301dc7aaebb28387b5e03e2d.setContent(html_4740f8fed94b4e6cc506fe3dd8fd2015);
+            
+        
+
+        circle_marker_c80157e510671d46122b7020052f4582.bindPopup(popup_19243512301dc7aaebb28387b5e03e2d)
+        ;
+
+        
+    
+    
+            var circle_marker_d272605884e0a286b992e92eef5217dd = L.circleMarker(
+                [25.6052, 85.1794],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_5d3fb968bc4d52aef020d5aa684b10e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ee53764ae1bf333e316020f3fe15be8 = $(`<div id="html_6ee53764ae1bf333e316020f3fe15be8" style="width: 100.0%; height: 100.0%;">Burglary at Agam Kuan</div>`)[0];
+                popup_5d3fb968bc4d52aef020d5aa684b10e9.setContent(html_6ee53764ae1bf333e316020f3fe15be8);
+            
+        
+
+        circle_marker_d272605884e0a286b992e92eef5217dd.bindPopup(popup_5d3fb968bc4d52aef020d5aa684b10e9)
+        ;
+
+        
+    
+    
+            var circle_marker_bf16b5feb6050c8b35a5423957d220b6 = L.circleMarker(
+                [25.5899, 85.1587],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_b2cf8ef9722835649f40ad3f9963ec5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_531f23f934646ae27efe9237df598a65 = $(`<div id="html_531f23f934646ae27efe9237df598a65" style="width: 100.0%; height: 100.0%;">Robbery at Bikhana Pahadi</div>`)[0];
+                popup_b2cf8ef9722835649f40ad3f9963ec5e.setContent(html_531f23f934646ae27efe9237df598a65);
+            
+        
+
+        circle_marker_bf16b5feb6050c8b35a5423957d220b6.bindPopup(popup_b2cf8ef9722835649f40ad3f9963ec5e)
+        ;
+
+        
+    
+    
+            var circle_marker_b750c6d23711bad910df07855a7b91ca = L.circleMarker(
+                [25.5941, 85.1376],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_90678f63ea387575e618c023214d8aeb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25f38e4503a7782281e8442d7d095f9e = $(`<div id="html_25f38e4503a7782281e8442d7d095f9e" style="width: 100.0%; height: 100.0%;">Theft at Civil Lines</div>`)[0];
+                popup_90678f63ea387575e618c023214d8aeb.setContent(html_25f38e4503a7782281e8442d7d095f9e);
+            
+        
+
+        circle_marker_b750c6d23711bad910df07855a7b91ca.bindPopup(popup_90678f63ea387575e618c023214d8aeb)
+        ;
+
+        
+    
+    
+            var circle_marker_e1804561794fc5c0f0edccab83a12160 = L.circleMarker(
+                [25.6022, 85.141],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_1ae9c650615df4fa9ccb9d797b0845d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_516584b4c803382be667428dea652bda = $(`<div id="html_516584b4c803382be667428dea652bda" style="width: 100.0%; height: 100.0%;">Assault at Kankarbagh</div>`)[0];
+                popup_1ae9c650615df4fa9ccb9d797b0845d5.setContent(html_516584b4c803382be667428dea652bda);
+            
+        
+
+        circle_marker_e1804561794fc5c0f0edccab83a12160.bindPopup(popup_1ae9c650615df4fa9ccb9d797b0845d5)
+        ;
+
+        
+    
+    
+            var circle_marker_ca62b803939d46ff2cbdb12e26712fe0 = L.circleMarker(
+                [25.612, 85.1015],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+    
+        var popup_5751924db05509bed63d207948cbb23d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e50b9cae87bd100b77a624d4f2a27948 = $(`<div id="html_e50b9cae87bd100b77a624d4f2a27948" style="width: 100.0%; height: 100.0%;">Vehicle Theft at Patliputra</div>`)[0];
+                popup_5751924db05509bed63d207948cbb23d.setContent(html_e50b9cae87bd100b77a624d4f2a27948);
+            
+        
+
+        circle_marker_ca62b803939d46ff2cbdb12e26712fe0.bindPopup(popup_5751924db05509bed63d207948cbb23d)
+        ;
+
+        
+    
+    
+            var heat_map_5f3dd63cc93314f9ac5a0259e4d14d45 = L.heatLayer(
+                [[25.5941, 85.1376], [25.6022, 85.141], [25.612, 85.1015], [25.6173, 85.15], [25.6101, 85.1385], [25.602, 85.1642], [25.5875, 85.0456], [25.6395, 85.047], [25.616, 85.1438], [25.6246, 85.1114], [25.5888, 85.1549], [25.6052, 85.1794], [25.5947, 85.1355], [25.6022, 85.141], [25.602, 85.1642], [25.5899, 85.1587], [25.612, 85.1015], [25.6173, 85.15], [25.6395, 85.047], [25.602, 85.1642], [25.6246, 85.1114], [25.5888, 85.1549], [25.5947, 85.1355], [25.6101, 85.1385], [25.616, 85.1438], [25.6052, 85.1794], [25.5941, 85.1376], [25.5875, 85.0456], [25.6246, 85.1114], [25.612, 85.1015], [25.6022, 85.141], [25.5888, 85.1549], [25.6395, 85.047], [25.6173, 85.15], [25.6101, 85.1385], [25.616, 85.1438], [25.602, 85.1642], [25.6052, 85.1794], [25.5899, 85.1587], [25.5941, 85.1376], [25.6022, 85.141], [25.612, 85.1015]],
+                {
+  "minOpacity": 0.5,
+  "maxZoom": 18,
+  "radius": 25,
+  "blur": 15,
+}
+            );
+        
+    
+            heat_map_5f3dd63cc93314f9ac5a0259e4d14d45.addTo(map_0036738359e04a9d574d4a30f4dbc601);
+        
+</script>
+</html>
